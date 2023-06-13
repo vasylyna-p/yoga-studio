@@ -343,6 +343,89 @@ footer {
     }
 }
 
+// Media quaries
+@media screen and (max-width: 991.98px) {
+    .masthead .masthead-content {
+        .masthead-heading {
+            font-size: 3rem;
+        }
+        .masthead-text {
+            font-size: 1.15rem;
+        }
+    }
+
+    .class-card {
+        width: 100%;
+    }
+
+    section,
+    footer {
+        padding: 2rem 0;
+    }
+
+    .navbar {
+        background-color: $primary;
+    }
+
+    .section-info {
+        font-size: 1.05rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .masthead {
+        height: 75vh;
+        &::before {
+            bottom: 25%;
+        }
+    }
+
+    .about-content .card {
+        margin-bottom: 0;
+        padding: 0.5rem;
+    }
+
+    #classes .class-card:hover {
+        transform: none;
+    }
+
+    section,
+    footer {
+        padding: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .masthead .masthead-content .masthead-heading {
+        font-size: 2.3rem;
+    }
+
+    .about-content .card .card-text {
+        font-size: 1.15rem;
+        padding: 0.5rem 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #teachers .teacher-container {
+        img {
+            max-width: 250px;
+            height: 250px;
+        }
+    }
+
+    #pricing .card .card-body .pricing-button {
+        bottom: 0;
+        left: 20%;
+    }
+
+    #classes .class-card .class-description p {
+        margin-bottom: 3rem;
+    }
+}
+
 
 
 @import "~bootstrap/scss/bootstrap";
