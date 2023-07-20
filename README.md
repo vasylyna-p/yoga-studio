@@ -1,6 +1,6 @@
 # Harmony Yoga Studio Landing Page
 
-### This is a one-page project for Harmony Yoga Studio, showcasing information about the studio, classes, pricing, teachers, and contact details. The project was built using HTML, SCSS, Bootstrap, and a touch of JavaScript. It is designed to practice the usage of Bootstrap and SCSS and is fully responsive, adapting to different screen sizes.
+This is a one-page project for Harmony Yoga Studio, showcasing information about the studio, classes, pricing, teachers, and contact details. The project was built using HTML, SCSS, Bootstrap, and a touch of JavaScript. It is designed to practice the usage of Bootstrap and SCSS and is fully responsive, adapting to different screen sizes.
 
 This landing page is deployed and accessible on Netlify. You can view the live using the following link:
 [Harmony Yoga Studio Landing Page](https://harmony-yoga-studio.netlify.app/).
